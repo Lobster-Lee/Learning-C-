@@ -6,6 +6,7 @@ int main (void)
     float Num1, Num2, result;
     char operator1;
 
+    cout << "Please input the Num1 operator Num2" << endl;
     cin >> Num1;
     cin >> operator1;
     cin >> Num2;
@@ -26,6 +27,10 @@ int main (void)
                 return 0;
             }
         }
+    else {
+        cout << "A error happened, the operator is illegal!" << endl;
+        return 0;
+    }
 
     cout << "The reslut is " << result << endl;
     return 0;
