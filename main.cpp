@@ -1,5 +1,5 @@
 #include <iostream>
-<<<<<<< HEAD
+
 using namespace::std;
 
 int main (void)
@@ -34,13 +34,4 @@ int main (void)
     }
 
     cout << "The reslut is " << result << endl;
-=======
-
-using namespace std;
-
-int main()
-{
-    cout << "Hello world!" << endl;
->>>>>>> HelloWorld
-    return 0;
 }
